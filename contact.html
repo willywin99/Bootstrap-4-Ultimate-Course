@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Bootstrap 4 | Contact</title>
+  </head>
+  <body>
+    
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navigation -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-5 mb-3">Contact
+        <small>Subheading</small>
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Contact</li>
+      </ol>
+      <!-- Akhir Page Heading/Breadcrumbs -->
+
+      <!-- Content Row -->
+      <div class="row">
+        <!-- Map Column -->
+        <div class="col-lg-8 mb-4">
+
+          <!-- Embedded Google Map -->
+          <!-- <iframe src="http://maps.google.com/maps?" frameborder="0" width="100%" height="400px" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <!-- <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Melanthon%20Siregar,%20Pematangsiantar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+              <iframe width="100%" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=Melanthon%20Siregar,%20Pematangsiantar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br>
+              <!-- <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style> -->
+              <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style>
+              <a href="https://www.embedgooglemap.net">how to embed google map on website</a>
+              <!-- <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> -->
+              <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Akhir Map Column -->
+        <!-- Contact Details Column -->
+        <div class="col-lg-4 mb-4">
+          <h3>Contact Details</h3>
+          <p>
+            Pematangsiantar
+            <br>North Sumatera, Indonesia 21128
+            <br>
+          </p>
+          <p>
+            <abbr title="Phone">P</abbr>: +62-822-7792-9190
+          </p>
+          <p>
+            <abbr title="Email">E</abbr>:
+            <a href="mailto:willywinsianturi@gmail.com">willywinsianturi@gmail.com</a>
+          </p>
+          <p>
+            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+          </p>
+        </div>
+        <!-- Akhir Contact Details Column -->
+      </div>
+      <!-- Akhir Content Row -->
+
+      <!-- Contact Form -->
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <h3>Send us a Message</h3>
+          <form action="" id="contactForm" name="sentMessage" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label for="">Full Name:</label>
+                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your Name">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label for="">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your Phone Number">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label for="">Email:</label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your Email">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label for="">Message:</label>
+                <textarea name="" id="message" cols="100" rows="10" required data-validation-required-message="Please enter your Message" class="form-control"></textarea>
+                <!-- <p class="help-block"></p> -->
+              </div>
+            </div>
+            <div id="success"></div>
+            <button class="btn btn-primary" id="sendMessageButton">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <!-- Akhir Contact Form -->
+
+    </div>
+    <!-- Akhir Page Content -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; willywin 2022</p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
